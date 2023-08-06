@@ -5,8 +5,8 @@
   User defined variables
 */
 float tempThreshold = 50;         // Minimum temperature (f) to send alerts
-int minSecsFromFirstAlert = 15;  // 5 min
-int minSecsBetweenEmails = 10;    // 1 min
+int minSecsFromFirstAlert = 300;  // 5 min
+int minSecsBetweenEmails = 60;    // 1 min
 
 // true - receive alerts when above tempThreshold
 // false - do not factor temperature into alerts
