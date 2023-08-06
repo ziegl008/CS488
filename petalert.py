@@ -70,4 +70,4 @@ while True:
         send_email_temp_alert(tempThreshold, ambientTemp)
     if message[0:4] == "SECO":
         send_email_second_motion()
-    time.sleep(0.5)
+    time.sleep(0.15)
